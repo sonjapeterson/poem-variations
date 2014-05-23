@@ -1,0 +1,31 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.first {
+	position: fixed;
+	left: 5px;
+	bottom: 0px;
+
+}
+.second {
+	float: left;
+	margin-left: 62px;
+	padding-top: 1152px;
+}
+
+.third {
+	float: left;
+	margin-left: 4px;
+	margin-top: 2304px;
+}
+
+.last {
+	float: left;
+	margin-top: 3456px;
+	margin-left: 4px;
+	
+}

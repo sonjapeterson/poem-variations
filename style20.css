@@ -1,0 +1,114 @@
+.screen {
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+}
+
+.screen.two {
+	top: 100vh;
+	position: absolute;
+}
+
+.screen.three {
+	top: 200vh;
+	position: absolute;
+}
+
+.screen.four {
+	top: 300vh;
+	position: absolute;
+}
+.screen.five {
+	top: 400vh;
+	position: absolute;
+}
+.screen.six {
+	top: 500vh;
+	position: absolute;
+}
+.screen.seven {
+	top: 600vh;
+	position: absolute;
+}
+.screen.eight {
+	top: 700vh;
+	position: absolute;
+}
+.screen.nine {
+	top: 800vh;
+	position: absolute;
+}
+.screen.ten {
+	top: 900vh;
+	position: absolute;
+}
+.screen.eleven {
+	top: 1000vh;
+	position: absolute;
+}
+.screen.twelve {
+	top: 1100vh;
+	position: absolute;
+}
+.screen.thirteen {
+	top: 1200vh;
+	position: absolute;
+}
+.screen.fourteen {
+	top: 1300vh;
+	position: absolute;
+}
+.screen.fifteen {
+	top: 1400vh;
+	position: absolute;
+}
+.screen.sixteen {
+	top: 1500vh;
+	position: absolute;
+}
+
+.firsthalf {
+	font-size: 100vh;
+	line-height: .8;
+	font-weight: lighter;
+}
+
+.secondhalf {
+	font-size: 3vh;
+	position: absolute;
+	width: 20vh;
+	top: 50vh;
+	left: 25vh;
+	font-weight: bolder;
+
+}
+
+.secondhalf.s {
+	left: 15vh;
+}
+
+.secondhalf.t {
+	left: 40vh;
+}
+
+.secondhalf.w {
+	left: 58vh;
+	top: 18vh;
+}
+
+.secondhalf.r {
+	left: 21vh;
+	top: 58vh;
+	width: 18vh;
+}
+
+.secondhalf.a {
+	top: 55vh;
+	left: 24vh;
+}
+
+.secondhalf.k {
+	left: 23vh;
+	top: 55vh;
+
+}

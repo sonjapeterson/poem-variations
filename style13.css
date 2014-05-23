@@ -1,0 +1,29 @@
+#container {
+	margin: 100px auto 0px auto;
+	width: 920px;
+}
+.one {
+	border: 10px ridge red;
+	width: 440px;
+}
+
+.two {
+	border: 10px outset red;
+	width: 420px;
+}
+
+.plaque {
+	border: 10px ridge red;
+	width: 400px;
+}
+
+.inside {
+	border: 10px outset;
+	width: 360px;
+	padding: 10px;
+}
+
+.one.float {
+	float: left;
+}
+

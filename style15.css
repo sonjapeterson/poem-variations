@@ -1,0 +1,47 @@
+#leftblock {
+	position: fixed;
+	width: 40%;
+	top: 0;
+	left: 0;
+	height: 100%;
+	border-right: 10px solid black;
+}
+
+#rightblock {
+	position: fixed;
+	width: 40%;
+	left: 60%;
+	top: 0;
+	right: 10px;
+	height: 100%;
+	border-left: 10px solid black;
+}
+.toplines {
+	width: 34000px;
+	border-bottom: 10px dashed black;
+	height: 70px;
+}
+
+.bottomlines {
+	width: 34000px;
+	border-bottom: 10px dashed black;
+	border-top: 10px dashed black;
+	height: 70px;
+	margin-top: 3000px;
+	margin-bottom: 400px;
+}
+
+.line.bumper {
+	width: 700px;
+}
+
+.line {
+	float: left;
+	width: 2000px;
+	height: 30px;
+	padding: 20px;
+}
+
+.last.line {
+	width: 100px;
+}

@@ -1,0 +1,77 @@
+#circle6, #circle5, #circle4, #circle3, #circle2, #circle1 {
+	position: fixed;
+	font-family: Monaco;
+	letter-spacing: 1.2;
+	top: 50%;
+	left: 50%;
+	border-radius: 50%;
+	overflow: hidden;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.3);
+	opacity: .4;
+}
+
+#circle6:hover, #circle5:hover, #circle4:hover, #circle3:hover, #circle2:hover, #circle1:hover {
+	opacity: 1;
+	color: white;
+	-webkit-transition:opacity .75s ease-in;
+	-moz-transition:opacity .75s ease-in;
+	-o-transition:opacity .75s ease-in;
+	transition:opacity .75s ease-in;
+	cursor: pointer;
+}
+
+#circle6 {
+	height: 900px;
+	width: 900px;
+	margin-top: -450px;
+	margin-left: -450px;
+	background-color: #B38184;
+	font-size: 60px;
+}
+
+#circle5 {
+	height: 800px;
+	width: 800px;
+	margin-top: -370px;
+	margin-left: -400px;
+	background-color: #413E4A;
+	font-size: 50px;
+}
+
+#circle4 {
+	height: 700px;
+	width: 700px;
+	margin-top: -325px;
+	margin-left: -350px;
+	background-color: #73626E;
+	font-size: 40px;
+
+}
+
+#circle3 {
+	height: 600px;
+	width: 600px;
+	margin-top: -310px;
+	margin-left: -300px;
+	background-color: #B38184;
+	font-size: 40px;
+
+}
+#circle2 {
+	margin-top: -220px;
+	margin-left: -220px;
+	height: 500px;
+	width: 500px;
+	background-color: #F0B49E;
+	font-size: 30px;
+}
+
+#circle1 {
+	margin-top: -195px;
+	margin-left: -195px;
+	height: 400px;
+	width: 400px;
+	background-color: #F7E4BE;
+	font-size: 18px;
+}

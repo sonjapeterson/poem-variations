@@ -1,0 +1,16 @@
+#front {
+	font-family: 'Trebuchet MS', sans-serif;
+	text-transform: lowercase;
+	font-size: 200px;
+	line-height: 1.5;
+	letter-spacing: .8;
+	overflow: hidden;
+}
+
+#back {
+	position: fixed;
+	font-size: 9px;
+	width: 100%;
+	height: 100%;
+	color: gray;
+}

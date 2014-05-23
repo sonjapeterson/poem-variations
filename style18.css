@@ -1,0 +1,17 @@
+
+.one {
+	letter-spacing: 14;
+	font-size: 50px;
+	font-style: italic;
+	text-transform: lowercase;
+}
+
+.two {
+	font-size: 16px;
+	margin-bottom: 30px;
+	margin-top: -20px;
+	margin-left: 32px;
+	font-weight: 400;
+	letter-spacing: 10;
+}
+

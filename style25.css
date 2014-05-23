@@ -1,0 +1,100 @@
+body {
+	background-color: black;
+	font-family: Helvetica;
+	font-size: 25px;
+
+	}
+
+#beginnings {
+	position: absolute;
+	left: 0px;
+	text-align: right;
+  	color: white;
+}
+
+#circle1, #circle2 {
+	position: fixed;
+	height: 100px;
+	width: 100px;
+	background-color: white;
+	border-radius: 50%;
+	overflow: hidden;
+	text-align: center;
+	opacity: 0.4;
+
+}
+
+#bowling {
+	position: absolute;
+	height: 450px;
+	width: 450px;
+	background-color: white;
+	border-radius: 50%;
+	overflow: hidden;
+	text-align: center;
+	color: black;
+	left: 10%;
+	top: 20%;
+	font-size: 325px;
+  	-webkit-transition-property: left;
+  	-moz-transition-property: left;
+    -o-transition-property: left;
+    transition-property: left;
+    -webkit-transition-duration: 3s;
+    -moz-transition-duration: 3s;
+    -o-transition-duration: 3s;
+  	transition-duration: 3s;
+	-webkit-transition-timing-function: linear;
+	-moz-transition-timing-function: linear;
+	-o-transition-timing-function: linear;
+	transition-timing-function: linear;
+}
+
+#circle1 {
+	height: 500px;
+	width: 500px;
+	bottom: -200px;
+	left: -200px;
+	
+}
+
+#circle2 {
+	right: 10px;
+	top: 10px;
+	height: 300px;
+	width: 300px;
+	top: -150px;
+	right: -150px;
+
+}
+
+#ends {
+	position: fixed;
+	right: 0px;
+	text-align: left;
+	left: 50%;
+	color: black;
+	-webkit-transition-property: letter-spacing;
+    -moz-transition-property: letter-spacing;
+    -o-transition-property: letter-spacing;
+    transition-property: letter-spacing;
+  	-webkit-transition-duration: 7s;
+       -moz-transition-duration: 7s;
+         -o-transition-duration: 7s;
+            transition-duration: 7s;
+    -webkit-transition-timing-function: linear;
+       -moz-transition-timing-function: linear;
+         -o-transition-timing-function: linear;
+            transition-timing-function: linear;
+}
+
+
+#ends:hover {
+	color: white;
+	letter-spacing: 3em;
+}
+
+#bowling:hover {
+	left: 55%;
+}
+

@@ -1,0 +1,28 @@
+body {
+	background-color: black;
+	color: white;
+	font-family: Courier;
+	font-size: 20px;
+	line-height: 2em;
+}
+
+#poem {
+	margin: 30 auto;
+	width: 800px;
+	letter-spacing: 1.1;
+	padding: 10px;
+}
+
+#poem:hover {
+	border: 3px dotted #B38184;
+	margin: 27 auto;
+
+}
+
+.hidden {
+	color: black;
+}
+
+.hidden:hover {
+	color: #73626E;
+}

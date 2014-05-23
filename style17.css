@@ -1,0 +1,84 @@
+body {
+	font-family: Georgia;
+	font-size: 40px;
+	line-height: 2em;
+}
+
+#a, #b, #c, #d, #e, #f {
+	border: 20px ridge yellow;
+	position: fixed;
+	width: 505px;
+	height: 505px;
+}
+
+#a {
+	top: 5%;
+	left: 20%;
+}
+
+#b {
+	top: 30%;
+	left: 30%;
+}
+
+#c {
+top: 40%;
+	left: 3%;
+}
+
+#d {
+top: 30%;
+	left: 30%;
+}
+
+#e {
+top: 50%;
+left: 55%;
+}
+
+#f {
+left: 0;
+bottom: -400px;
+}
+
+#one, #two, #three, #four, #five, #six {
+	position: relative;
+	padding: 25px;
+	width: 500px;
+	height: 500px;
+	margin-bottom: 2000px;
+}
+
+
+#one {
+	top: 5%;
+	left: 20%;
+}
+
+#two {
+	top: 30%;
+	left: 30%;
+}
+
+#three {
+	top: 40%;
+	left: 3%;
+}
+
+#four {
+	top: 50%;
+	left: 55%;
+}
+
+#five {
+	top: 50%;
+	left: 20%;
+	margin-bottom: 200%;
+}
+
+#six {
+right: 0;
+bottom: 0;
+margin-bottom: 0;
+height: 100px;
+}
